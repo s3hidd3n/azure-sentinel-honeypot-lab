@@ -11,13 +11,17 @@
 
 ## Overview
 
-This project demonstrates how I built a cloud-based honeypot using **Microsoft Azure** to simulate a vulnerable virtual machine exposed to the public internet.
+In this project, I built a cloud-based honeypot in Microsoft Azure to simulate a vulnerable Windows virtual machine exposed to the public internet.
+The environment was intentionally configured with permissive security settings to attract real-world attack attempts. Using Microsoft Sentinel, Log Analytics Workspace, KQL, and Azure Watchlists, I collected and analysed failed login events and visualised attacker activity on a live attack map.
+Within a short period of deployment, the virtual machine began receiving brute-force login attempts from multiple countries, demonstrating how quickly publicly exposed systems attract malicious traffic.
 
-The goal was to observe real-world attack attempts, collect security logs, forward them into a SIEM, and visualise attacker activity using a live attack map.
 
-The system began receiving real malicious login attempts shortly after deployment.
+---
 
-Using **Microsoft Sentinel**, **Log Analytics Workspace**, **KQL**, and **Azure Watchlists**, I analysed failed login attempts and mapped attacker IP addresses geographically.
+## Secrity Context 
+
+Internet-facing systems are constantly targeted by automated scans, brute-force attacks, and malicious login attempts. Without proper monitoring and centralised logging, detecting and analysing these threats can be difficult.
+This project was designed to demonstrate how Microsoft Sentinel and Azure-native security tools can be used to monitor, analyse, and visualise real-world attack activity in a cloud environment.
 
 ---
 

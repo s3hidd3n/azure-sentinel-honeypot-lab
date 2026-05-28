@@ -51,7 +51,7 @@ The environment consisted of:
 
 📌 Architecture Diagram:
 
-![Architecture](images/architecture.png)
+![Architecture](images/architecture.jpg)
 
 ---
 

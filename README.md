@@ -228,21 +228,3 @@ This lab provided hands-on experience building a real-world honeypot and analysi
 
 It simulates how SOC teams monitor, detect, and visualise threats in a cloud environment.
 
----
-
-## 📂 Folder Structure
-
-```bash
-
- ├── architecture.png
- ├── resource-group-setup.png
- ├── nsg-open.png
- ├── firewall-disabled.png
- ├── event-viewer-4625.png
- ├── log-analytics.png
- ├── sentinel-setup.png
- ├── data-collection-rule.png
- ├── kql-query.png
- ├── watchlist.png
- ├── attack-map.png
- ├── results.png

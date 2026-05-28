@@ -77,7 +77,7 @@ I created a Resource Group in Azure and deployed the core infrastructure:
 
 The VM was assigned a public IP and connected to the network.
 
-![Resource Setup](resource-group-setup.png)
+![Resource Setup](images/resource-group-setup.png)
 
 ---
 
@@ -87,7 +87,7 @@ To simulate a real-world attack surface, I modified the **Network Security Group
 
 This made the VM fully exposed to the internet.
 
-![NSG Rules](nsg-open.png)
+![NSG Rules](images/nsg-open.png)
 
 ---
 
@@ -95,7 +95,7 @@ This made the VM fully exposed to the internet.
 
 After connecting via Remote Desktop Protocol (RDP), I disabled Windows Defender Firewall to make the system fully permissive internally.
 
-![Firewall Disabled](firewall-disabled.png)
+![Firewall Disabled](images/firewall-disabled.png)
 
 ---
 
@@ -117,7 +117,7 @@ These logs contained:
 - Timestamp data
 - Authentication failure details
 
-![Event Viewer](event-viewer-4625.png)
+![Event Viewer](images/event-viewer-4625.png)
 
 ---
 
@@ -127,7 +127,7 @@ I created a **Log Analytics Workspace** to centralise all security logs from the
 
 This acted as the log repository for the environment.
 
-![Log Analytics](log-analytics.png)
+![Log Analytics](images/log-analytics.png)
 
 ---
 
@@ -137,7 +137,7 @@ I connected the Log Analytics Workspace to **Microsoft Sentinel** to enable SIEM
 
 This allowed advanced querying, detection, and visualisation.
 
-![Sentinel Setup](sentinel-setup.png)
+![Sentinel Setup](images/sentinel-setup.png)
 
 ---
 
@@ -152,7 +152,7 @@ This pipeline connected:
 
 VM → Log Analytics Workspace → Microsoft Sentinel
 
-![DCR Setup](data-collection-rule.png)
+![DCR Setup](images/data-collection-rule.png)
 
 ---
 
@@ -165,7 +165,7 @@ Example focus:
 
 This revealed multiple brute-force attempts from external IP addresses.
 
-![KQL Query](kql-query.png)
+![KQL Query](images/kql-query.png)
 
 ---
 
@@ -178,7 +178,7 @@ This allowed:
 - IP address → Country / City mapping
 - Latitude / Longitude resolution
 
-![Watchlist](watchlist.png)
+![Watchlist](images/watchlist.png)
 
 ---
 
@@ -188,7 +188,7 @@ I created a **Microsoft Sentinel Workbook** to visualise attack activity globall
 
 This displayed real-time attacker locations on an interactive map.
 
-![Attack Map](attack-map.png)
+![Attack Map](images/attack-map.png)
 
 ---
 
@@ -203,7 +203,7 @@ This displayed real-time attacker locations on an interactive map.
 | Belgium | 457 |
 | Makati City, Philippines | 455 |
 
-![Results Dashboard](results.png)
+![Results Dashboard](images/results.png)
 
 ---
 

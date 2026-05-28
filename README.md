@@ -46,8 +46,7 @@ The environment consisted of:
 - Open Network Security Group (NSG)
 - Log Analytics Workspace
 - Microsoft Sentinel
-- Azure Watchlist (Geo IP data)
-- Sentinel Workbook (Attack Map)
+
 
 📌 Architecture Diagram:
 

@@ -127,7 +127,7 @@ I created a **Log Analytics Workspace** to centralise all security logs from the
 
 This acted as the log repository for the environment.
 
-![Log Analytics](images/log-analytics.png)
+![Log Analytics](log-analytics.png)
 
 ---
 
